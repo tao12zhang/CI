@@ -12,6 +12,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br />
 	<input type="submit" name="submit" value="Submit" />
 </form>
-
+你好!
 </body>
 </html>
