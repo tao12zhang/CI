@@ -22,6 +22,7 @@ class Login extends CI_Controller {
     }
 
     public function index() {
+        //print(123);die;
         $this->load->view ( 'login' );
     }
     //注册与登录
