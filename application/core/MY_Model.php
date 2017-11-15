@@ -11,6 +11,7 @@ class MY_Model extends CI_Model {
     public $status = false;
     public $dbname = "fengchu";//数据库名称,可以为空,如果是空使用连接对象中的默认值
     public $dbconfigkey="SNOB";//数据库连接对象配置key
+    //public $dbconfigkey="default";//数据库连接对象配置key
     public $dbtable="";//表名称,在执行sql之前不可以为空
     public $db = "";//数据库主库连接对象
     public $read_db ="";//数据库从库连接对象

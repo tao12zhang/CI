@@ -74,8 +74,29 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => '',
+	'password' => '',
+	'database' => '',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
 //主
-$db['SNOB']['0']['hostname'] = 'localhost';
+$db['SNOB']['0']['hostname'] = '127.0.0.1';
 $db['SNOB']['0']['username'] = 'root';
 $db['SNOB']['0']['password'] = '';
 $db['SNOB']['0']['database'] = 'fengchu';
@@ -95,7 +116,7 @@ $db['SNOB']['0']['isMaster'] = true;
 
 
 // 从
-$db['SNOB']['1']['hostname'] = 'localhost';
+$db['SNOB']['1']['hostname'] = '127.0.0.1';
 $db['SNOB']['1']['username'] = 'root';
 $db['SNOB']['1']['password'] = '';
 $db['SNOB']['1']['database'] = 'fengchu';

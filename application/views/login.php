@@ -9,7 +9,7 @@
 <html>
 <?php //echo validation_errors(); ?>
 <?php //echo form_open('login/formsubmit'); ?>
-<form method="post" action="formsubmit">
+<form method="post" action="login/formsubmit">
 <table>
     <tr>
         <td>用户名</td>

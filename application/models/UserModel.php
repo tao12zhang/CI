@@ -47,7 +47,6 @@ class UserModel extends MY_Model
         foreach ( $query->result () as $row ) {
             $pass = $row->pass;
         }
-        //print_r($pass);die;
         if ($pass == $data ['pass']) {
 
             $this->session->set_userdata($newdata);

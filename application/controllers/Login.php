@@ -6,7 +6,7 @@
  * Time: 下午2:00
  */
 
-class Login extends CI_Controller {
+class Login extends MY_Controller {
 
     private $pass = '';
 
@@ -16,19 +16,19 @@ class Login extends CI_Controller {
             'form',
             'url'
         ) );
-        //$this->load->library('session');
         $this->load->Model('UserModel');
+        $this->load->library ('form_validation');
+
 
     }
 
     public function index() {
-        //print(123);die;
         $this->load->view ( 'login' );
     }
+
     //注册与登录
     public function formsubmit() {
 
-        $this->load->library ('form_validation');
 
         $this->form_validation->set_rules ( 'username', 'Username', 'required' );
         $this->form_validation->set_rules ( 'password', 'Password', 'required' );

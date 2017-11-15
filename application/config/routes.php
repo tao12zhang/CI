@@ -55,7 +55,19 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['zt/welcome'] = 'zt/Welcome';
 
-$route['zt/upload'] = 'zt/Upload/uploadFile3';
+$route['upload/index'] = 'zt/Upload/index';
+$route['upload/upload'] = 'zt/Upload/upload';
+
+
+
+
+
+
+
+
+
+
+
 
 $route['login/index'] = 'Login/index';
 $route['login/formsubmit'] = 'Login/formsubmit';

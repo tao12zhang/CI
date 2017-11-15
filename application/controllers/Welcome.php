@@ -188,5 +188,27 @@ class Welcome extends MY_Controller {
         exit($strexport);
     }
 
+    function getPondId($probability)
+    {
+        if(!$probability) return 0;
+        $n = strlen($probability)-(strpos($probability,'.')+1);
+        //print($n);die;
+        //$n = 3;
+        $p = pow(10,$n);
+        $p = 10000;
+        $probability = $probability*$p;
+        //print($probability);die;
+        $pond = ceil($p*100/$probability);
+        print($pond);die;
+        $winning = rand(1,$pond);
+        print($winning);die;
+        return $winning;
+    }
+
+    function test(){
+        $a = $this->getPondId(50);
+        echo $a;
+    }
+
 
 }
