@@ -6,7 +6,7 @@
  * Time: 下午2:00
  */
 
-class Login extends CI_Controller {
+class Login extends MY_Controller {
 
     private $pass = '';
 
@@ -16,7 +16,7 @@ class Login extends CI_Controller {
             'form',
             'url'
         ) );
-        $this->load->Model('UserModel');
+        //$this->load->Model('UserModel');
         $this->load->library ('form_validation');
 
 
