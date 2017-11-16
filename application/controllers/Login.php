@@ -6,7 +6,7 @@
  * Time: 下午2:00
  */
 
-class Login extends MY_Controller {
+class Login extends CI_Controller {
 
     private $pass = '';
 
