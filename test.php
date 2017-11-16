@@ -196,7 +196,7 @@ function exportExcel($list,$filename,$indexKey,$startRow=1,$excel2007=false){
 if(!$link) echo "FAILD!连接错误，用户名密码不对";
 else echo "OK!可以连接";*/
 
-return json_encode([1,2,3]);
+echo json_encode([1,2,3]);
 
 
 
