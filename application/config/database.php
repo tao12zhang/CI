@@ -77,7 +77,7 @@ $query_builder = TRUE;
 //主
 $db['SNOB']['0']['hostname'] = 'localhost';
 $db['SNOB']['0']['username'] = 'root';
-$db['SNOB']['0']['password'] = '';
+$db['SNOB']['0']['password'] = 'Zxchjjgl@123';
 $db['SNOB']['0']['database'] = 'fengchu';
 $db['SNOB']['0']['port']     = '3306';
 $db['SNOB']['0']['dbdriver'] = 'mysqli';
@@ -97,7 +97,7 @@ $db['SNOB']['0']['isMaster'] = true;
 // 从
 $db['SNOB']['1']['hostname'] = 'localhost';
 $db['SNOB']['1']['username'] = 'root';
-$db['SNOB']['1']['password'] = '';
+$db['SNOB']['1']['password'] = 'Zxchjjgl@123';
 $db['SNOB']['1']['database'] = 'fengchu';
 $db['SNOB']['1']['port']     = '3306';
 $db['SNOB']['1']['dbdriver'] = 'mysqli';
