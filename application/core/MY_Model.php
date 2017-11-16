@@ -45,6 +45,7 @@ class MY_Model extends CI_Model {
      * */
     function setdb($dbconfigkey="",$isreturn=FALSE,$dataname="")
     {
+        print_r(123);die;
         if ($dbconfigkey=="")
         {
             $dbconfigkey = $this->dbconfigkey;

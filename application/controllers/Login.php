@@ -16,7 +16,7 @@ class Login extends MY_Controller {
             'form',
             'url'
         ) );
-        //$this->load->Model('UserModel');
+        $this->load->Model('UserModel');
         $this->load->library ('form_validation');
 
 
